@@ -31,8 +31,26 @@ var john = {
     calculateAge: function() {
         console.log(this);
         console.log(2020 - this.yearOfBirth);
+
+        function innerFunction() {
+            console.log(this);
+        }
+        innerFunction();
     }
 }
-
+console.log('------John------');
 john.calculateAge();
+
+var mike = {
+    name : 'Mike',
+    yearOfBirth : 1984
+}
+
+// method borrowing 
+mike.calculateAge = john.calculateAge;
+
+console.log('------Mike------');
+mike.calculateAge();
+
+
 
