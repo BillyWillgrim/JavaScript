@@ -1,0 +1,8 @@
+DOM: Document Object Model
+
+The DOM is a structured representation of an HTML document
+
+The DOM is used to connect webpages to scripts.
+
+It is a fully object orientated representation. For each HTML element
+there is an object in the DOM that we can access and interact with.
