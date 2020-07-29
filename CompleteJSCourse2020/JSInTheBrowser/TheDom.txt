@@ -6,3 +6,15 @@ The DOM is used to connect webpages to scripts.
 
 It is a fully object orientated representation. For each HTML element
 there is an object in the DOM that we can access and interact with.
+
+------- Events ---------
+
+Events are notifications that are sent to notify the code that
+something happened on the webpage.
+
+Examples: clicking a button, resizing a window, scrolling down
+or pressing a key
+
+Event Listeners: A function that performs an action
+based on a certain event. It waits for a specific
+event to happen.

@@ -9,6 +9,30 @@ GAME RULES:
 
 */
 
+var scores, roundScore, activePlayer, dice;
+
+scores = [0,0];
+roundScore = 0;
+activePlayer = 0;
+
+dice = Math.floor(Math.random()*6) + 1;
+console.log(dice);
+
+// this allows us to select elements in exactly the same way as we do
+// in css. The only difference being it only selects the first element that it finds
+
+document.querySelector('#current-' + activePlayer).textContent = dice;
+// document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>'
+
+var x = document.querySelector('#score-0').textContent;
+console.log(x);
+
+document.querySelector('.dice').style.display = 'none';
+
+
+
+
+
 
 
 
